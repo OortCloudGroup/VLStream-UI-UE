@@ -1,33 +1,33 @@
-# VLStream UI/UE 设计资料
+VLStream UI/UE Design Assets
 
-本仓库用于归档和共享 VLStream 产品体系的界面与用户体验设计资料。VLStream（Video Link Stream）是 OortCloudGroup 面向视频融合与视觉物联网场景打造的平台，覆盖云端管理、视频接入与设备侧应用等产品形态。该仓库聚焦设计交付物，为产品、设计和研发团队提供统一的界面参考与源文件。
+This repository archives and shares user interface (UI) and user experience (UE) design materials for the VLStream product suite. VLStream (Video Link Stream) is OortCloudGroup's video fusion platform for video access, device management, and intelligent visual applications. This repository focuses on design deliverables, providing product, design, and engineering teams with a shared reference and editable source files.
 
-## 项目背景
+## About VLStream
 
-VLStream 的整体产品体系包括 VLStream Cloud、IPCamera、NVR、CMS 桌面客户端，以及 iOS、Android、HarmonyOS 等移动应用。平台围绕视频接入、设备管理和智能分析构建，组织主页介绍的能力包括 WebRTC、决策 AI、算力调度、多租户运营和物联网接入。
+The VLStream ecosystem includes VLStream Cloud, IPCamera, NVR, the CMS desktop client, and mobile applications for iOS, Android, and HarmonyOS. The platform brings together video streaming, device management, AI-assisted analysis, and Internet of Things (IoT) capabilities. Its key technologies and capabilities include WebRTC, decision-making AI, computing power scheduling, and multi-tenant operations.
 
-其中，VLStream Cloud 承载云端管理与视频业务，相关模块包括工作台、视频聚合、决策 AI、算法仓库和 AI 算力调度。IPCamera 与 NVR 面向前端设备和录像管理场景，移动端设计则支持用户通过移动设备使用 VLStream 产品能力。
+VLStream Cloud provides cloud-based management and video services. Its modules include the workbench, video aggregation, decision-making AI, algorithm marketplace, and AI computing power scheduling. IPCamera and NVR support camera and recording workflows, while the mobile applications extend VLStream capabilities to mobile devices.
 
-## 本仓库收录范围
+## Design Materials in This Repository
 
-目前收录以下产品的英文版 UI/UE 设计源文件及配套图片资料：
+This repository currently contains English-language design source files and related image packages for the following products:
 
-| 产品 | 设计资料 |
+| Product | Design materials |
 | --- | --- |
-| VLStream Cloud | 云端平台设计稿与界面图片 |
-| VLStream Cloud Mobile | 移动端设计稿与界面图片 |
-| VLStream IPCamera | IPCamera 相关设计稿与界面图片 |
-| VLStream NVR | NVR 相关设计稿与界面图片 |
+| VLStream Cloud | Cloud platform designs and interface images |
+| VLStream Cloud Mobile | Mobile app designs and interface images |
+| VLStream IPCamera | IPCamera-related designs and interface images |
+| VLStream NVR | NVR-related designs and interface images |
 
-仓库名称中的 UI/UE 分别指用户界面（User Interface）与用户体验（User Experience）。这些资料用于呈现产品界面结构和交互设计，不包含对应产品的应用程序代码。
+These materials document product interfaces and interaction designs. They do not include application source code.
 
-## 文件说明
+## File Types
 
-- `.mg`：MasterGo 设计源文件，可用于查看或继续编辑设计稿。
-- `图.zip`：与对应设计稿配套的图片资料包。
-- `英文版` / `英文`：该设计资料为英文界面版本。
+- `.mg`: Editable MasterGo design source files.
+- `图.zip`: Image packages associated with the corresponding design files.
+- `英文版` or `英文` in a filename: English-language design materials.
 
-## 目录结构
+## Repository Structure
 
 ```text
 VLStream-UI-UE/
@@ -43,14 +43,14 @@ VLStream-UI-UE/
     └── VLStream_NVR（英文版）图.zip
 ```
 
-## 使用与维护
+## Viewing and Maintaining the Files
 
-查看设计稿时，请使用 MasterGo 打开 `.mg` 源文件；如只需浏览导出的界面图片，可查看相应的 `图.zip`。新增或更新资料时，请放入对应产品目录，并保持源文件与配套图片的名称一致，便于查找和版本维护。
+Open `.mg` files with MasterGo to view or edit the design source. To browse the accompanying interface images, see the corresponding `图.zip` package. When adding or updating materials, place them in the relevant product directory and use matching, descriptive filenames for source files and image packages.
 
-## VLStream 相关项目
+## Related VLStream Projects
 
-- [VLStream Cloud](https://github.com/OortCloudGroup/VLStream-Cloud)：云端视频流管理与服务端项目。
-- [VLStream Web](https://github.com/OortCloudGroup/VLStream-Web)：Web 视频平台项目。
-- [VLStream APP](https://github.com/OortCloudGroup/VLStream-APP)：多平台应用项目。
-- [VLStream IPCamera](https://github.com/OortCloudGroup/VLStream-IPCamera)：IPCamera 相关项目。
-- [OortCloudGroup](https://github.com/OortCloudGroup)：组织主页与其他相关仓库。
+- [VLStream Cloud](https://github.com/OortCloudGroup/VLStream-Cloud) — cloud video stream management and backend services.
+- [VLStream Web](https://github.com/OortCloudGroup/VLStream-Web) — web-based video platform.
+- [VLStream APP](https://github.com/OortCloudGroup/VLStream-APP) — multi-platform application suite.
+- [VLStream IPCamera](https://github.com/OortCloudGroup/VLStream-IPCamera) — IPCamera-related project.
+- [OortCloudGroup](https://github.com/OortCloudGroup) — organization profile and related repositories.
